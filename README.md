@@ -1,13 +1,8 @@
 <div align="center">
 
-<img width="1280" height="720" alt="outpost (1)" src="https://github.com/user-attachments/assets/f7036758-0862-4941-828c-aedace29bbbc" />
-
 # Outpost
 
 **An agentic workspace: chat with an AI agent that draws on a canvas and writes docs, while your team works alongside it in real time.**
-
-Built step by step in a YouTube tutorial on the **roadsidecoder** channel.<br />
-## ▶ **Watch the tutorial:** https://youtu.be/vNXrFMSAsOA
 
 </div>
 
@@ -183,7 +178,3 @@ Outpost runs on free tiers out of the box. As you grow, here's how to scale each
 | `npm run seed -- you@email.com [org_id]` | Add demo workspaces (sign in once first) |
 
 After changing `prisma/schema.prisma`, create and apply a migration, run `npx prisma generate`, and restart the dev server.
-
-## License
-
-[GPL-3.0](LICENSE). The PDF export uses BlockNote's [`@blocknote/xl-pdf-exporter`](https://www.blocknotejs.org/docs/features/export/pdf), which is GPL-3.0 licensed, so the whole project is too. You can use, change and share this code, including commercially, as long as your version stays open source under GPL-3.0. To use it in a closed-source product, remove the PDF exporter or get a [BlockNote commercial license](https://www.blocknotejs.org/pricing).
